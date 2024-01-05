@@ -1,0 +1,30 @@
+
+nav {
+    padding: 27px 35px 0px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.nav-style {
+    text-decoration: none;
+    color: var(--dark-green);
+}
+
+.nav-style:hover {
+    color: var(--dark-green);
+}
+
+.contact-btn {
+    box-sizing: border-box;
+    border: 2px solid var(--dark-green);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.contact-btn:hover {
+    background-color: var(--dark-green);
+    color: var(--light);
+    text-decoration: none;
+}

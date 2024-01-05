@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Header from './components/Header/Header';
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Officiating from './components/Officiating/Officiating';
 import About from './components/About/About';
@@ -14,7 +14,7 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <Router>
-      <div className="flex-column justify-flex-start min-100-vh">
+      <div className=" app flex-column justify-flex-start min-100-vh">
         <Header />
         <div className="container">
           {/* Wrap Route elements in a Routes component */}
@@ -48,7 +48,7 @@ function App() {
             />
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

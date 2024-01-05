@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
 :root {
   --dark: #0a090c;
   --light: #f7eac9;
@@ -6,6 +8,8 @@
   --light-green: #b7e693;
 }
 
-body {
-  color: var(--light)
+.app {
+  background-color: var(--light);
+  color: var(--dark-green);
+  font-family: 'PT Serif';
 }

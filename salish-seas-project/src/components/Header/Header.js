@@ -1,51 +1,53 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 //takes in currentPage and handlePageChange as props that are coming from PortfolioContainer
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <nav>
-        <div>logo here</div>
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
-                <Link
-                to={`/`}
+    <nav className='flex-row justify-content-between text-uppercase'>
+        <div> 
+            <Link
+                to={`/`} className='nav-style'
                 >
                 Home
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                to={`/officiating`}
-                >
-                Officiating
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                to={`/about`}
-                >
-                About
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                to={`/reviews`}
-                >
-                Reviews
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link
-                to={`/gallery`}
-                >
-                Gallery
-                </Link>
-            </li>
-        </ul>
-        <div className="contact-btn">
+            </Link>
+        </div>
+        <div className='grow'>
+            <ul className="nav flex-row justify-content-around">
+                <li className="nav-item">
+                    <Link
+                    to={`/officiating`} className='nav-style'
+                    >
+                    Officiating
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link
+                    to={`/about`} className='nav-style'
+                    >
+                    About
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link
+                    to={`/reviews`} className='nav-style'
+                    >
+                    Reviews
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link
+                    to={`/gallery`} className='nav-style'
+                    >
+                    Gallery
+                    </Link>
+                </li>
+            </ul>
+        </div>
+        <div>
             <Link
-                to={`/contactme`}
+                to={`/contactme`} className='nav-style contact-btn align-middle'
                 >
                 Contact Me
             </Link>
