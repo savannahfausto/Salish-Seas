@@ -1,57 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
-//takes in currentPage and handlePageChange as props that are coming from PortfolioContainer
-export default function Header({ currentPage, handlePageChange }) {
+import './Header.css'
+
+function Header() {
   return (
-    <nav className='flex-row justify-content-between text-uppercase'>
-        <div> 
-            <Link
-                to={`/`} className='nav-style'
-                >
-                Home
-            </Link>
-        </div>
-        <div className='grow'>
-            <ul className="nav flex-row justify-content-around">
-                <li className="nav-item">
-                    <Link
-                    to={`/officiating`} className='nav-style'
-                    >
-                    Officiating
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                    to={`/about`} className='nav-style'
-                    >
-                    About
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                    to={`/reviews`} className='nav-style'
-                    >
-                    Reviews
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                    to={`/gallery`} className='nav-style'
-                    >
-                    Gallery
-                    </Link>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <Link
-                to={`/contactme`} className='nav-style contact-btn align-middle'
-                >
-                Contact Me
-            </Link>
-        </div>   
-    </nav>
+    <Navbar expand="lg" className="bg-body-tertiar text-uppercase">
+      <Container>
+        <Navbar.Brand href="/" className="nav-link">Home</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto justify-content-around w-75">
+            <Nav.Link href="/officiating">Officiating</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/reviews">Reviews</Nav.Link>
+            <Nav.Link href="/gallery">Gallery</Nav.Link>
+          </Nav>
+            <div className='contact-btn d-inline-block'>
+                <Nav.Link href="/contactme">Contact Me</Nav.Link>
+            </div>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default Header;
