@@ -6,7 +6,7 @@ import './Header.css'
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiar text-uppercase">
+    <Navbar expand="md" className="bg-body-tertiar text-uppercase">
       <Container>
         <Navbar.Brand href="/" className="nav-link">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

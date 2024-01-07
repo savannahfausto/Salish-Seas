@@ -1,0 +1,34 @@
+.footer-style {
+    display: flex;
+    background-color: var(--dark-green);
+    margin-bottom: 10px;
+    color: var(--light);
+    letter-spacing: 3px;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 15px 25px;
+    font-size: 14px;
+}
+
+.footer-text {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: var(--gold);
+    text-decoration: none;
+}
+
+@media (max-width: 747px) {
+    .break {
+     display: none;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .footer-style {
+        font-size: 10px;
+    }
+}
