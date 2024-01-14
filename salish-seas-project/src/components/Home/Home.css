@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.img-style {
+    width: 100%;
+}
+
+.banner-image-container {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+.banner-image {
+    width: 85%;
+    margin: 10px;
+}
+
+.banner-title {
+    font-style: bold; 
+    font-size: 55px;
+    color: var(--gold);
+}
+
+.client-message-container h1, .client-message-container p {
+    font-family: 'PT Serif';
+    line-height: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.client-message-container h1 {
+    font-family: 'Great Vibes';
+    font-size: 55px;
+    font-style: bold;
+    letter-spacing: 5px;
+}
+
+.signature {
+    font-style: italic;
+}
+
+.learn-more {
+    font-family: 'PT-Serif';
+    padding-left: 5px;
+    margin: 50px 20px 20px 20px;
+}
+
+.cards-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cards-container a {
+    width: 33.3%;
+    margin: 0 20px;
+}
+.img {
+    max-width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.card-titles{
+    position: absolute;
+    background-color: rgb(216, 163, 85, 0.3);
+    width: 90%;
+    padding: 10px;
+    padding-right: 25px;
+    color: var(--light);
+    font-size: 20px;
+    font-family: 'PT-Serif';
+    text-align: right;
+    bottom: -19px;
+    right: -13px;
+    height: 55px;
+}
+
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards-container a {
+        width: 90%;
+        /* margin: auto 0; */
+    }
+}
+@media (min-width: 576px) {
+    div .container-override {
+        max-width: 100%;
+    }
+}

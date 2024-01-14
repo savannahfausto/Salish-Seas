@@ -12,7 +12,7 @@
 }
 
 div .nav-link {
-    color: var(--dark-green)
+    color: var(--dark-green);
 }
 
 @media (max-width: 764px) {

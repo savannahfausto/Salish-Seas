@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div className=" app flex-column justify-flex-start min-100-vh">
         <Header />
-        <div className="container">
+        <div className="container container-override">
           {/* Wrap Route elements in a Routes component */}
           <Routes>
             {/* Define routes using the Route component to render different page components at different paths */}
