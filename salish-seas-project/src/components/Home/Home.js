@@ -57,7 +57,7 @@ function Home() {
           <img src={banner} height={800} className='banner-image' alt='Ben happily officiating'/>
         </div>
         <div className='client-message-container d-flex flex-column align-items-center'>
-          <h1 className='m-2 banner-title'>~ Washington Wedding Officiant ~</h1>
+          <h1 className='m-2 banner-title'>Washington Wedding Officiant</h1>
           <p className='client-message text-center m-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           <p className='signature m-2'>-Benjamin Garman, a sailor turned ordained minister with a passion for uniting love with nature</p>
         </div>

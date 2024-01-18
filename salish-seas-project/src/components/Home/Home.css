@@ -76,6 +76,11 @@
     height: 55px;
 }
 
+/* @media (max-width: 860px) {
+    .client-message-container h1 {
+        font-size: 50px;
+    }
+} */
 
 @media (max-width: 768px) {
     .cards-container {
@@ -91,4 +96,5 @@
     div .container-override {
         max-width: 100%;
     }
+
 }

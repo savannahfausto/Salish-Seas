@@ -6,10 +6,15 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Officiating from './components/Officiating/Officiating';
+import Air from './components/Officiating/Air';
+import Water from './components/Officiating/Water';
+import Mountain from './components/Officiating/Mountain';
+import Waterfall from './components/Officiating/Waterfall';
 import About from './components/About/About';
 import Reviews from './components/Reviews/Reviews';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Contact/Contact';
+import Process from './components/Process/Process';
 
 function App() {
   return (
@@ -45,6 +50,26 @@ function App() {
              <Route 
               path="/contactme" 
               element={<Contact />} 
+            />
+            <Route 
+              path="/my-process" 
+              element={<Process />} 
+            />
+            <Route 
+              path="/air" 
+              element={<Air />} 
+            />
+            <Route 
+              path="/water" 
+              element={<Water />} 
+            />
+            <Route 
+              path="/waterfall" 
+              element={<Waterfall />} 
+            />
+            <Route 
+              path="/mountain" 
+              element={<Mountain />} 
             />
           </Routes>
         </div>

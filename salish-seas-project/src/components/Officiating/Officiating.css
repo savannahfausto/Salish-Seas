@@ -1,0 +1,140 @@
+.officiating-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.officiating-title {
+    font-family: 'PT Serif';
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.officiating-img-style {
+    width: 85%;
+    margin: 30px 0;
+}
+
+.officiating-p-style {
+    text-align: center;
+    width: 80%;
+}
+
+.package-title {
+    font-family: 'PS Serif';
+    text-align: center;
+    font-size: 50px;
+}
+
+.experience-img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    filter: brightness(75%);
+}
+
+.experience-img:hover {
+    transform: scale(0.95);
+    filter: brightness(100%);
+}
+
+.experience-tag {
+    position: absolute;
+    color: var(--light);
+    text-shadow: 1px 1px 2px var(--gold), 0 0 1em var(--dark-green), 0 0 0.2em var(--dark-green);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Great Vibes';
+    letter-spacing: 11px;
+}
+
+.package-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 50px 50px 50px
+}
+
+.package-details-title {
+    font-family: 'PS Serif';
+    font-size: 37px;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 65px;
+
+}
+
+.package-list {
+    margin-left: 20px;
+}
+
+.package-list li {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.package-price {
+    font-size: 20px;
+}
+
+.package-btn {
+    align-self: center;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link-container a {
+    color: var(--dark-greengreen);
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-color: rgba(80, 114, 85, 0.3); 
+}
+
+.link-container a:hover {
+    color: rgba(80, 114, 85, 0.5);
+}
+
+@media (min-width: 991px) {
+    .experience-img {
+        width: 200px;
+        height: 200px; 
+    }
+}
+
+@media (min-width: 1401px) {
+    .experience-img {
+        width: 300px;
+        height: 300px; 
+    }
+}
+
+@media (max-width: 640px) {
+    .officiating-title {
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 35px;
+        letter-spacing: 0.4px;
+    }
+    .package-title {
+       margin: 20px;
+       font-size: 30px;
+    }
+    .package-details-title {
+        font-size:28px;
+        font-weight: 500;
+        line-height: 35px;
+    }
+}

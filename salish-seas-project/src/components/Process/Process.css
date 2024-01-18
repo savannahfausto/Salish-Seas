@@ -1,0 +1,7 @@
+.working-title, .details-title {
+    color: var(--gold)
+}
+
+.working-blurb {
+    line-height: 35px;
+}

@@ -1,11 +1,16 @@
-.contact-btn {
+.btn-style, .contact-btn {
     box-sizing: border-box;
     border:2px solid var(--dark-green);
     padding: 10px;
     border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: var(--dark-green);
+    padding: 15px 20px;
+    font-size: 14px;
 }
 
-.contact-btn:hover {
+.btn-style:hover, .contact-btn:hover {
     background-color: var(--dark-green);
     color: var(--light);
     text-decoration: none;
@@ -16,17 +21,17 @@ div .nav-link {
 }
 
 @media (max-width: 764px) {
-    .contact-btn {
+    .contact-btn{
         box-sizing: border-box;
         border: none;
         padding: 0px;
         margin-top: 20px;
         font-size: 20px;
     }
-    .contact-btn:hover {
-        background-color: var(--light);
-        color: var(---green);
-        text-decoration: none;
-    }
 
+    .contact-btn a:hover{
+        background-color: var(--light);
+        color: var(--dark-green);
+        text-decoration: underline;
+    } 
 }
