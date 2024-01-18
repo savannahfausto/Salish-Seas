@@ -24,7 +24,7 @@ function Process() {
             <li>As a gift to all of my clients, you also receive a beautiful keepsake copy of your ceremony. This custom package can be used to hold your commemorative marriage license and your vow books so that you can revisit your wedding mementos in the years ahead. Many couples find that a tradition of reading through their ceremony and their vows on their anniversary is a powerful reminder of the commitments they made to each other on their special day.</li>
           </ul>
           <p className='working-blurb'>All in all, I will spend 20 hours researching, writing, and delivering your unique ceremony. For this in-depth client experience, it is recommended that we begin working together at least 3 months before your wedding date, though I can accommodate shorter timelines if my schedule allows. </p>
-          <Link to='/contact' className='btn-style align-self-center'>Let's Get Started!</Link>
+          <Link to='/contactme' className='btn-style align-self-center'>Let's Get Started!</Link>
         </div>
       </div>
     );

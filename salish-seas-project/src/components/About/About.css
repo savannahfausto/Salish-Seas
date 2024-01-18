@@ -1,0 +1,27 @@
+.about-blurb {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-img {
+    float: left;
+    margin: 20px;
+    width: 40%
+}
+
+.about-title {
+    letter-spacing: 4.4px;;
+}
+
+.about-contact-btn-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 768px) {
+    .about-img {
+        float: none;
+        width: 95%;
+    }
+}
