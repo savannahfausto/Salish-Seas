@@ -1,0 +1,46 @@
+.contact-title {
+    font-size: 1.2rem;
+    column-gap: 1ex;
+    align-items: baseline;
+}
+
+.required {
+    font-size: 12px;
+    opacity: .7;
+}
+
+.name-style {
+    font-size: 12px;
+}
+
+.name-width {
+    width: 48%;
+}
+
+.input-style {
+    height: 50px;
+    border: 1px solid rgba(80, 114, 85, 0.7);
+    box-sizing: border-box;
+    color: #000;
+    padding: 10px;
+    color: var(--dark-green)
+}
+
+.message-style {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: var(--light);
+    border-radius: 300px;
+    width: 200px;
+    letter-spacing: .25em;
+    font-size: 18px;
+    height: 80px;
+}
+
+@media (max-width: 640px) {
+    .center-btn {
+        text-align: center;
+    }
+}

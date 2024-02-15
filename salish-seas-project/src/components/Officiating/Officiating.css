@@ -12,6 +12,7 @@
     letter-spacing: 5px;
     padding: 10px;
     text-align: center;
+    color: var(--gold);
 }
 
 .officiating-img-style {

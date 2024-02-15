@@ -6,7 +6,7 @@ import './Reviews.css';
 function Reviews() {
     return (
       <div>
-        <h2 className='officiating-title working-title review-title mb-5'>Kind Words</h2>
+        <h2 className='officiating-title review-title mb-5'>Kind Words</h2>
         <div className='container'>
           <div className='row'>
             <div className='col-md-6 single-review'>

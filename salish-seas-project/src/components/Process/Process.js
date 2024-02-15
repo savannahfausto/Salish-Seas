@@ -7,7 +7,7 @@ function Process() {
     return (
       <div>
         <div className='m-3'>
-          <h2 className='text-center officiating-title working-title'>Working With Me</h2>
+          <h2 className='text-center officiating-title'>Working With Me</h2>
           <p className='working-blurb m-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt ornare massa eget egestas purus viverra. In tellus integer feugiat scelerisque varius. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Ac ut consequat semper viverra nam libero justo laoreet. Vel risus commodo viverra maecenas accumsan. Lorem ipsum dolor sit amet consectetur adipiscing. Maecenas pharetra convallis posuere morbi leo urna molestie at. A lacus vestibulum sed arcu non odio euismod lacinia. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Felis bibendum ut tristique et. Ridiculus mus mauris vitae ultricies. Orci a scelerisque purus semper eget duis at. Suscipit adipiscing bibendum est ultricies integer quis auctor.</p>
         </div>
         <div className='m-4 d-flex flex-column'>

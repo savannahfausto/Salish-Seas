@@ -1,11 +1,30 @@
+import ContactForm from './ContactForm';
+import ContactImg from '../../assets/water/self/Seattle-Family-Photographer-4.jpg'
+import './Contact.css'
+
 function Contact() {
-    const message = 'Hello world! I am a Contact Component';
-    // The return statement contains something called "JSX"
-    // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
-    // Expressions in JSX should be placed in curly braces {}
     return (
-      <div className="container">
-        <h2>{message}</h2>
+      <div className="contact-page-container d-flex">
+        <div className='contact-left mr-5'>
+          <div className='contact-message'>
+            <h2 className='officiating-title contact-title-left'>Contact Ben</h2>
+            <p className='my-4 contact-blurb'>I would love to design a ceremony that meets your needs. Let's talk!</p>
+            <p className='my-4 contact-blurb'>I offer a free 30-minute consultation to discuss what you're looking for in a ceremony. I look forward to hearing your story and honoring your journey through life. I am a proud LGBTQI+ ally vendor committed to serving all couples and people with dignity and respect.</p>
+          </div>
+          <div>
+            <ContactForm />
+          </div>
+        </div>
+        <div className='contact-right'>
+          <div>
+            <img className='img-style'src={ContactImg} alt="Ben with family"/>
+          </div>
+          <div className='text-uppercase mt-4 contact-signoff'>
+            <p>Benjamin Garman (He/Him)</p>
+            <p>ben@naturelopements.com</p>
+            <p>Based in Washington</p>
+          </div>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,47 @@
+.contact-page-container {
+    margin: 10px 40px;
+}
+
+.contact-left {
+    width: 60%;
+}
+
+.contact-right {
+    width: 40%;
+}
+
+.contact-title-left {
+    text-align: left;
+    padding: 0;
+}
+
+.contact-blurb {
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+.contact-signoff {
+    letter-spacing: 2px;
+}
+
+.contact-signoff p {
+    font-size: 16px;
+}
+
+@media (max-width: 640px) {
+    .contact-page-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-page-container > .contact-right {
+        order: 1;
+    }
+
+    .contact-right, .contact-left {
+        width: 100%;
+    }
+
+    .contact-title-left {
+        font-size: 35px;
+    }
+}
