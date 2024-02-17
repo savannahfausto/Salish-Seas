@@ -15,6 +15,7 @@ import Reviews from './components/Reviews/Reviews';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Contact/Contact';
 import Process from './components/Process/Process';
+import Calendar from './components/Contact/Calendar';
 
 function App() {
   return (
@@ -70,6 +71,10 @@ function App() {
             <Route 
               path="/mountain" 
               element={<Mountain />} 
+            />
+            <Route 
+              path="/calendar" 
+              element={<Calendar />} 
             />
           </Routes>
         </div>

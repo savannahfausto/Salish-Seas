@@ -1,0 +1,9 @@
+.calendar-style {
+    padding-bottom: 100px;
+}
+@media (max-width: 640px) {
+    .calendar {
+        width: 600px;
+        height: 400px;
+    }
+}
