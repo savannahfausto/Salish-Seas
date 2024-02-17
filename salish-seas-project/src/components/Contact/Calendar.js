@@ -7,7 +7,7 @@ function Calendar() {
             <h2 className='officiating-title'>Calendar</h2>
             <div className="text-center mb-5">
                 <div className='d-flex justify-content-center'>
-                <iframe className='calendar' src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FLos_Angeles&bgcolor=%23ffffff&showTitle=0&showPrint=0&src=c2F2YW5uYWhmYXVzdG9AZ21haWwuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&color=%234285F4" width="800" height="600" frameborder="0" scrolling="no" title="test"></iframe>
+                <iframe className='calendar' src="https://calendar.google.com/calendar/embed?src=0452ced4a23105d2966f83b948845abbf6b933d344e79234c52628eccb305408%40group.calendar.google.com&ctz=America%2FLos_Angeles" width="800" height="600" frameborder="0" scrolling="no" title="test"></iframe>
                 </div>
             </div>
             <div className='text-center'>

@@ -1,4 +1,4 @@
-.btn-style, .contact-btn {
+.btn-style {
     box-sizing: border-box;
     border:2px solid var(--dark-green);
     padding: 10px;
@@ -10,7 +10,7 @@
     font-size: 14px;
 }
 
-.btn-style:hover, .contact-btn:hover {
+.btn-style:hover {
     background-color: var(--dark-green);
     color: var(--light);
     text-decoration: none;
@@ -29,7 +29,7 @@ div .nav-link {
         font-size: 20px;
     }
 
-    .contact-btn a:hover{
+    .contact-btn:hover{
         background-color: var(--light);
         color: var(--dark-green);
         text-decoration: underline;

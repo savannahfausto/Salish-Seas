@@ -1,12 +1,13 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link }  from 'react-router-dom';
 
 import './Header.css'
 
 function Header() {
   return (
-    <Navbar expand="md" className="bg-body-tertiar text-uppercase">
+    <Navbar expand="md" className="bg-body-tertiar text-uppercase px-4 py-5">
       <Container>
         <Navbar.Brand href="/" className="nav-link">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,8 +18,8 @@ function Header() {
             <Nav.Link href="/reviews">Reviews</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
           </Nav>
-            <div className='contact-btn d-inline-block'>
-                <Nav.Link href="/contactme">Contact Me</Nav.Link>
+            <div className='d-inline-block'>
+                <Link className='btn-style contact-btn' to="/contactme">Contact Me</Link>
             </div>
         </Navbar.Collapse>
       </Container>
