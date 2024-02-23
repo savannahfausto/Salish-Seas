@@ -21,7 +21,7 @@ function Contact() {
         </div>
         <div className='contact-right'>
           <div>
-            <img className='img-style'src={ContactImg} alt="Ben with family"/>
+            <img className='contact-img-style'src={ContactImg} alt="Ben with family"/>
           </div>
           <div className='text-uppercase mt-4 contact-signoff'>
             <p>Benjamin Garman (He/Him)</p>

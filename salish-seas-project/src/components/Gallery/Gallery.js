@@ -1,13 +1,12 @@
-function Gallery() {
-    const message = 'Hello world! I am a Gallery Component';
-    // The return statement contains something called "JSX"
-    // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
-    // Expressions in JSX should be placed in curly braces {}
-    return (
-      <div className="container">
-        <h2>{message}</h2>
-      </div>
-    );
-  }
-  
-  export default Gallery;
+import { imagesArray } from "./imageData";
+import { ImageGallery } from "react-image-grid-gallery";
+
+export default function Gallery() {
+  return (
+    <ImageGallery
+      imagesInfoArray={imagesArray}
+      columnWidth={400}
+      gapSize={24}
+    />
+  );
+}

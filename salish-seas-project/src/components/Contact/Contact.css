@@ -20,6 +20,11 @@
     line-height: 1.8em;
 }
 
+.contact-img-style {
+width: 100%;
+height: auto;
+}
+
 .contact-signoff {
     letter-spacing: 2px;
 }

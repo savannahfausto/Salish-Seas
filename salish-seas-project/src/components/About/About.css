@@ -39,4 +39,10 @@
     .about-container > .about-img-2 {
         order: 1;
     }
+
+    .about-img {
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
 }

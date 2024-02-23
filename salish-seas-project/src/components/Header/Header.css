@@ -13,11 +13,18 @@
 .btn-style:hover {
     background-color: var(--dark-green);
     color: var(--light);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 div .nav-link {
     color: var(--dark-green);
+    font-weight: bold;
+}
+
+div .nav-link:hover {
+    color: var(--dark-green);
+    /* font-size: 16px; */
+    text-decoration: underline;
 }
 
 @media (max-width: 764px) {
@@ -25,8 +32,7 @@ div .nav-link {
         box-sizing: border-box;
         border: none;
         padding: 0px;
-        margin-top: 20px;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .contact-btn:hover{

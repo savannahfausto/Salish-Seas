@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import air from '../../assets/air/SC/SC_26666.jpg';
-import water from '../../assets/water/SC/SarahChris-21.jpg';
-import mountain from '../../assets/mountain/JH/ijphoto_fireseed_catering_whidbey_island_wedding_0446.jpg';
-import waterfall from '../../assets/waterfall/NES/IMG_20230922_150935215.jpg';
+import air from '../../assets/air/SC/SC_26757_home.jpeg';
+import water from '../../assets/water/SC/SarahChris-41.JPG';
+import mountain from '../../assets/mountain/JH/ijphoto_fireseed_catering_whidbey_island_wedding_0342.jpg';
+import waterfall from '../../assets/waterfall/NES/IMG_20230922_131802096.jpg';
 import logo from '../../assets/logo/NES_croped.jpg';
 import banner from '../../assets/mountain/LN/Lyz_Nathan-31.jpg';
 import me from '../../assets/mountain/TP/IMG_20230929_143007844.jpg';
@@ -17,7 +17,7 @@ import './Home.css';
 
 function Home() {
   return (
-    <div>
+    <div className='px-3'>
       <Carousel>
         <Carousel.Item>
           {/* <ExampleCarouselImage text="First slide" /> */}
@@ -50,7 +50,7 @@ function Home() {
         </Carousel.Item>
       </Carousel>
       <div>
-        <img src={logo} height={400} className='img-style' alt='banner logo'/>
+        <img src={logo} height={400} className='logo-style' alt='banner logo'/>
       </div>
       <div>
         <div className='banner-image-container'>
@@ -68,19 +68,19 @@ function Home() {
         <div className='cards-container'>
           <Link to='/officiating'>
             <div className='card'>
-                <img className='img' src={officiating} alt="Ben officiating while couple laughs" />
+                <img className='img img-style' src={officiating} alt="Ben officiating while couple laughs" />
                 <h2 className='card-titles'>Officiating</h2>
             </div>
           </Link>
           <Link to='/gallery'>
             <div className='card'>
-                <img className='img' src={gallery} alt="Ben reviewing marriage license with couple" />
+                <img className='img img-style' src={gallery} alt="Ben reviewing marriage license with couple" />
                 <h2 className='card-titles'>Gallery</h2>
             </div>
           </Link>
           <Link to='/about'>
             <div className='card'>
-                <img className='img' src={me} alt="Ben officiating while couple laughs" />
+                <img className='img img-style' src={me} alt="Ben officiating while couple laughs" />
                 <h2 className='card-titles'>My Story</h2>
             </div>
           </Link>
